@@ -40,7 +40,7 @@ async def get_weather(message: types.Message):
         if weather_description in code_to_smile:
             wd = code_to_smile[weather_description]
         else:
-            wd = "Посмотри в окно, хер пойми че там за погода!!!"
+            wd = "Посмотри в окно, не понятно что там за погода!!!"
 
         humidity = data["main"]["humidity"]
         pressure = data["main"]["pressure"]
